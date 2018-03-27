@@ -4,18 +4,19 @@ Created on Mar 26, 2018
 @author: faronr
 '''
 import unittest
-import master.leap_year_checker as lyc
+import master.runner_up as ru
+
 
 class Test(unittest.TestCase):
 
 
-    def testLeapYearChecker(self):
-        rawinput = [1900]
-        result = lyc.leap_year(rawinput) 
-        expected = False
+    def test_runner_up(self):
+        rawinput = ["1 2 3 4 5 6 6"]
+        result = ru.runner_up(rawinput)
+        expected = 5
         self.assertEqual(expected, result, 
                          'Error: expected %s, recieved %s'% (str(expected),
-                                                             str(result))) 
+                                                             str(result)))
 
 
 if __name__ == "__main__":
