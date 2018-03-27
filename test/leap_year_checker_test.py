@@ -4,7 +4,7 @@ Created on Mar 26, 2018
 @author: faronr
 '''
 import unittest
-import master.leap_year_checker as lyc
+import python_code_challenges.leap_year_checker as lyc
 
 class Test(unittest.TestCase):
 

@@ -4,8 +4,7 @@ Created on Mar 26, 2018
 @author: faronr
 '''
 import unittest
-import master.runner_up as ru
-
+import python_code_challenges.runner_up as ru
 
 class Test(unittest.TestCase):
 
